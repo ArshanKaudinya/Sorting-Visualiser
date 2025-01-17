@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import Bar from './Bar';
-import './components/Sorting Visualiser.css';
+import './css/Sorting Visualiser.css';
 import { mergeSort, bubbleSort } from './Sorting Algorithms';
 
 

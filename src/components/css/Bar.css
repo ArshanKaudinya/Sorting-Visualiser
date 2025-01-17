@@ -1,0 +1,28 @@
+.bar {
+  /* Default bar appearance */
+  background-color: #ff9a55; /* Matches the color in your previous code */
+  display: inline-block;
+  transition: 0.05s ease;
+  width: 8px;
+  margin: 0 1px;
+
+  /* Optional extras for a sleek look */
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(255, 154, 85, 0.5);
+}
+
+/* Tablet size: slightly narrower bars */
+@media (max-width: 768px) {
+  .bar {
+    width: 4px;
+    margin: 0 0.5px;
+  }
+}
+
+/* Mobile size: even narrower bars */
+@media (max-width: 480px) {
+  .bar {
+    width: 2px;
+    margin: 0 0.25px;
+  }
+}
